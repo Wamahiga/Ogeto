@@ -18,6 +18,10 @@ body{
     background-size: cover;
     background-position: center;
 }
+#header p{
+    font-size: 28px;
+    color:#ffcba8;
+}
 
 
 .container{
@@ -31,8 +35,11 @@ nav{
     flex-wrap: wrap;
 }
 
-.logo{
+
+.logo {
     width: 140px;
+    font-size: 40px;
+    color: #ffa600;
 }
 nav ul li{
     display: inline-block;
@@ -364,7 +371,10 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(./images/phone-background.png);
+        background-image: url(./image/background1.png);
+    }
+    #header p{
+        color: #f3f3ba;
     }
     .header-text{
         margin-top: 100%;
