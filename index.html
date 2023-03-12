@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ce230ea3dd.js" crossorigin="anonymous"></script>
+    <title>Personal Portfolio site</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">Resume</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark"  onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX DESIGNER</p>
+                <h1>Hi, i'm <span>Kevin</span> <br>Jen from Australia</h1>
+            </div>
+        </div>
+        <div id="header1">
+
+        </div>
+    </div>
+    <!-- About section -->
+    <div id="about">
+        <div class="container"> 
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/OGETO FINAL PIC.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos cupiditate quo optio debitis pariatur dicta incidunt delectus recusandae omnis consequatur fugiat minus velit dolor enim, dolore ducimus modi iure repellendus.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development </span><br>web app developmentr</li>
+                            <li><span>App Development</span><br>Bilding Android/iOs apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Design at safaricom</li>
+                            <li><span>2019 - 2021 </span><br>Team lead at StartApp LLC.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2025 </span><br>Bsc.Iformation Security and Forensics</li>
+
+                        </ul>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SERVICES SECTION -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Branding</h2>
+                    <p>
+                        <li>Naming</li>
+                        <li>Logo Development</li>
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Digital</h2>
+                    <p>
+                        <li>Website Design</li>
+                        <li>Application Development</li>
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-print"></i>
+                    <h2>Print</h2>
+                    <p>
+                        <li>Posters</li>
+                        <li>Bronchures</li>
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------PORTFOLIO-------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="row">
+                <a href="#" class="btn btn1 ">ALL</a>
+                <a href="#" class="btn btn1">POSTERS</a>
+                <a href="#" class="btn btn1">LOGO</a>
+                <a href="#" class="btn btn1">ILLUSTRATIONS</a>
+            </div>
+          
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/MILGATE SCHOOL LOGO.png" alt="">
+                    <div class="layer">
+                        <h3>Milgate School Logo</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/man.png" alt="">
+                    <div class="layer">
+                        <h3>Ideograms</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        </p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/bear.png" alt="">
+                    <div class="layer">
+                        <h3>Green House Effect Poster</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+        <div class="container">
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/man.png" alt="">
+                    <div class="layer">
+                        <h3>Logo Design</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.  
+                        </p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/MILGATE SCHOOL LOGO.png" alt="">
+                    <div class="layer">
+                        <h3>Graphic design</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/bear.png" alt="">
+                    <div class="layer">
+                        <h3>Poster</h3>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim saepe assumenda a ipsam aliquam alias
+                             odio eligendi ab. Sapiente libero repellendus 
+                        </p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ------------CONTACT SECTION----------------- -->
+    
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ogeto@design.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 0712345678</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Made by Ogeto with <i class="fa-solid fa-heart"></i> </p>
+    </div>
+    <script src="index.js"></script>
+  
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxEGb7wAffrBnVX6d-2pUNESp74cudacEh4VbS_5BixCnbfA573Hv1mRLtf4EoqodfqXQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
