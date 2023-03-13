@@ -41,9 +41,17 @@
    
     <!-- SERVICES SECTION -->
     <div id="services">
-        <h1 class="sub-title">My Services</h1>
         <div class="container">
-            
+            <nav>
+                <!-- <img src="images/logo.png" class="logo"> -->
+                <h3 class="logo1">My <span>Services</span> </h3>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark"  onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
             <div class="services-list">
                 <div>
                     <i class="fa-solid fa-crop-simple"></i>
@@ -52,6 +60,7 @@
                         <li>Naming</li>
                         <li>Logo Development</li>
                     </p>
+      
                 </div>
                 <div>
                     <i class="fa-solid fa-code"></i>
@@ -75,9 +84,17 @@
 
     <!------------------------------PORTFOLIO-------------------------->
     <div id="portfolio">
+        <nav>
+            <!-- <img src="images/logo.png" class="logo"> -->
+            <h3 class="name">My <span>Portfolio</span></h3>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <i class="fa-sharp fa-solid fa-xmark"  onclick="closemenu()"></i>
+            </ul>
+        </nav>
         <div class="container">
-            <h1 class="sub-title">My Work</h1>
-          
+           
             <div class="work-list">
                 <div class="work">
                     <img src="image/MILGATE SCHOOL LOGO.png" alt="">
@@ -90,7 +107,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="image/man.png" alt="">
+                    <img src="image/IDEOGRAMS AND PICTOGRAMS COLOURED - Copy.png" alt="">
                     <div class="layer">
                         <h3>Ideograms</h3>
                         <p>
@@ -100,7 +117,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="image/bear.png" alt="">
+                    <img src="image/POLLUTION POSTERS.jpg" alt="">
                     <div class="layer">
                         <h3>Green House Effect Poster</h3>
                         <p>
@@ -115,7 +132,7 @@
         <div class="container">
             <div class="work-list">
                 <div class="work">
-                    <img src="image/man.png" alt="">
+                    <img src="image/bear.jpg" alt="">
                     <div class="layer">
                         <h3>Logo Design</h3>
                         <p>
@@ -125,7 +142,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="image/MILGATE SCHOOL LOGO.png" alt="">
+                    <img src="image/car image.png" alt="">
                     <div class="layer">
                         <h3>Graphic design</h3>
                         <p>
@@ -146,18 +163,26 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See more</a>
         </div>
     </div>
      <!-- About section -->
      <div id="about">
         <div class="container"> 
+            <nav>
+                <!-- <img src="images/logo.png" class="logo"> -->
+     >
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark"  onclick="closemenu()"></i>
+                </ul>
             <div class="row">
                 <div class="about-col-1">
-                    <img src="image/OGETO FINAL PIC.png" alt="">
+                    <img src="image/user.png" alt="">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">Resume</h1>
+                    
                     
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -166,14 +191,15 @@
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
-                            <li><span>Web Development </span><br>web app developmentr</li>
-                            <li><span>App Development</span><br>Bilding Android/iOs apps</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li><br>
+                            <li><span>Web Development </span><br>web app developmentr</li><br>
+                            <li><span>App Development</span><br>Bilding Android/iOs apps</li><br>
                         </ul>
                     </div>
                     <div class="tab-contents " id="experience">
                         <ul>
                             <li><span>2021 - Current</span><br>UI/UX Design at safaricom</li>
+                            <br>
                             <li><span>2019 - 2021 </span><br>Team lead at StartApp LLC.</li>
                         </ul>
                     </div>
@@ -183,8 +209,9 @@
 
                         </ul>
                     </div>
-                    <a href="image/my-cv.pdf" download class="btn btn2">Download CV</a>
+                  
                 </div>
+                  <a href="image/my-cv.pdf" download class="btn btn2">Download CV</a>
             </div>
         </div>
     </div>
@@ -240,5 +267,6 @@
             .catch(error => console.error('Error!', error.message))
         })
       </script>
+      
 </body>
 </html>

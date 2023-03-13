@@ -83,8 +83,8 @@ nav ul li a:hover::after{
 /* ABOUT SECTION */
 #about{
     padding: 50px;
-    margin-bottom: 0;
-    font-size: large;
+    margin-bottom: 20px;
+
 }
 .row{
     display: flex;
@@ -98,7 +98,7 @@ nav ul li a:hover::after{
 }
 .about-col-1 img{
     width: 80%;
-    border-radius:15px;
+    border-radius:20px;
 }
 .about-col-2{
     flex-basis: 60%;
@@ -152,6 +152,7 @@ nav ul li a:hover::after{
 
 }
 
+
 /* -----------SERVICES-------- */
 #services{
     padding: 50px;
@@ -159,6 +160,15 @@ nav ul li a:hover::after{
     background-size: cover;
     background-position: center;
     margin-bottom: 50px;
+    height: 100vh;
+}
+.logo1{
+    color: #fff;
+    font-size: 40px;
+    justify-content: center;
+}
+.logo1 span{
+    color: #ffa600;
 }
 .services-list{
     display: grid;
@@ -205,6 +215,13 @@ nav ul li a:hover::after{
 /* --------------PORTFOLIO SECTION------------------- */
 #portfolio{
     padding: 50px;
+}
+.name{
+    color: #fff;
+    font-size: 40px;
+}
+.name span{
+    color: #ffa600;
 }
 
 .row{
@@ -295,9 +312,11 @@ nav ul li a:hover::after{
 /*----------------CONTACT SECTION----------------- */
 #contact{
     padding: 50px;
+    margin-top: 0;
 }
 .contact-left{
     flex-basis: 35%;
+    margin-top: 0;
     
 }
 .contact-right{
