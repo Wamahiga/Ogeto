@@ -155,6 +155,10 @@ nav ul li a:hover::after{
 /* -----------SERVICES-------- */
 #services{
     padding: 50px;
+    background-image: url(image/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
 }
 .services-list{
     display: grid;
@@ -163,11 +167,12 @@ nav ul li a:hover::after{
     margin-top: 50px;
 }
 .services-list div{
-    background: #262626;
+    background: #fff;
+    color: #ffa600;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
-    border-radius: 10px;
+    border-radius: 10000px;
     transition: background 0.5s, transform 0.5s;
 }
 .services-list div i{
@@ -178,7 +183,7 @@ nav ul li a:hover::after{
     list-style:square;
     font-size: large;
     font-style:oblique;
-    color: #ffcba8;
+    color: #080808;
 }
 .services-list div h2{
     font-size: 30px;
@@ -193,7 +198,7 @@ nav ul li a:hover::after{
     display:    inline-block;
 }
 .services-list div:hover{
-    background:#ffa600;
+    background:#f5d497;
     transform: translateY(-10px);
 }
 
