@@ -368,10 +368,9 @@ nav .fa-solid{
     display: none;
 }
 
-
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(./image/background1.png);
+        background:#080808;
     }
     #header p{
         color: #f3f3ba;
