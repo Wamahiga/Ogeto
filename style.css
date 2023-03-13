@@ -368,9 +368,10 @@ nav .fa-solid{
     display: none;
 }
 
+
 @media only screen and (max-width: 600px){
     #header{
-        background:#080808;
+        background-image: url(image/phonneg.png);
     }
     #header p{
         color: #f3f3ba;
